@@ -8,15 +8,21 @@
        }
 
 .addie { float: left; 
-         margin: 200px;
-         border: dotted; 
+         margin: 100px;
+         border: ridge; 
          border-color: #31c46a;
-         border-radius: 20px; }
+         border-radius: 20px; 
+       }
 
 .skills { float: right; 
         margin: 50px;
          border: inset; 
          border-color: #5a32a8; 
-         border-radius: 20px; }
+         border-radius: 20px; 
+        }
 
-.fullsheet { float: left; }
+.fullsheet { max-width: 100%;
+             height: auto;
+             display: block; 
+             margin-bottom: 20px
+           }
