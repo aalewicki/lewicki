@@ -1,0 +1,73 @@
+/* Added a border around the title with a margin and padding, changed to the closest font to D&D I could find in Google font resource */
+
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #a81818;
+  font-family: "Girassol", serif;
+  border: medium solid white;
+  margin: 50px 25px;
+  padding: 30px 15px;
+}
+
+
+/*Changed the font, and removed the background color. */
+
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+}
+
+
+/* Added line height to make the large blocks of text easier to read, changed the font, and removed the background color.*/
+
+
+p {
+  font-family: "Baskervville", serif;
+  font-size: large;
+  line-height: 1.5;
+}
+
+
+.headimage { grid-area: headimage;}
+.species1 {grid-area: species1;}
+.species2 {grid-area: species2;}
+.species3 {grid-area: species3;}
+.species4 {grid-area: species4;}
+.species5 {grid-area: species5;}
+.species6 {grid-area: species6;}
+.species7 {grid-area: species7;}
+.species8 {grid-area: species8;}
+.species9 {grid-area: species9;}
+.species10 {grid-area: species10;}
+.speciesother {grid-area: speciesother;}
+
+
+
+
+.specieswrapper {
+    display: grid;
+    grid-template-areas:
+        'headimage headimage headimage headimage headimage'
+        'species1 species1 species1 species2 species2'
+        'species3 species3 species4 species4 species4'
+        'species5 species5 species5 species6 species6'
+        'species7 species 7 species 8 species8 species8'
+        'species9 species 9 species9 species10 species10'
+        'speciesother speciesother speciesother speciesother speciesother';
+
+
+    gap: 10px;
+    background-color: #9d0404c6
+}
+
+
+.specieswrapper > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+
