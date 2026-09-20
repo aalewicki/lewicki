@@ -1,21 +1,21 @@
 /* Trying to recreate the coding that I had already done. Very frustrated with w3spaces right now. */
 
 .sheet { float: right;
-         margin-left: 50px;
+         margin: 10 px 50px;
          border: solid; 
          border-color: #a81d1d;
-         border-radius: 20px; 
+         border-radius:10px; 
        }
 
 .addie { float: left; 
-         margin-right: 100px;
+         margin: 30px 100px;
          border: ridge; 
          border-color: #31c46a;
-         border-radius: 20px; 
+         border-radius: 50px; 
        }
 
 .skills { float: right; 
-        margin-left: 50px;
+        margin: 5px 50px;
          border: inset; 
          border-color: #5a32a8; 
          border-radius: 20px; 
