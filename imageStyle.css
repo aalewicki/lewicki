@@ -46,7 +46,7 @@ footer a {
 /* Working on adding images to grid */
 
 .specieswrapper {
-	background-image: url(images/starsinspace.jpg)
+	background-image: url(images/starsinspace.jpg);
 	background-size: 100%;
 	background-repeat: repeat
 }
