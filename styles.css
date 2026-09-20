@@ -11,50 +11,34 @@ h1 {
   padding: 30px 15px;
 }
 
-
 /*Changed the font, and removed the background color. */
-
-
 h2 {
   font-family: "Libre Baskerville", serif;
 }
 
 
 /* Added line height to make the large blocks of text easier to read, changed the font, and removed the background color.*/
-
-
 p {
   font-family: "Baskervville", serif;
   font-size: large;
   line-height: 1.5;
 }
 
-
-.headimage { grid-area: headimage;}
-.species1 {grid-area: species1;}
-.species2 {grid-area: species2;}
-.species3 {grid-area: species3;}
-.species4 {grid-area: species4;}
-.species5 {grid-area: species5;}
-.species6 {grid-area: species6;}
-.species7 {grid-area: species7;}
-.species8 {grid-area: species8;}
-.species9 {grid-area: species9;}
-.species10 {grid-area: species10;}
-.speciesother {grid-area: speciesother;}
-
-
+a:link { color: #1b82d1; }
+a:visited { color: #118f48; }
+a:hover { color: #b01010; }
+a:active { color: #f0f032; }
 
 
 .specieswrapper {
     display: grid;
     grid-template-areas:
         'headimage headimage headimage headimage headimage'
-        'species1 species1 species1 species2 species2'
-        'species3 species3 species4 species4 species4'
-        'species5 species5 species5 species6 species6'
-        'species7 species 7 species 8 species8 species8'
-        'species9 species 9 species9 species10 species10'
+        'aasimar aasimar aasimar dragonborn dragonborn'
+        'dwarf dwarf elf elf elf
+        'gnome gnome gnome goliath goliath'
+        'halfling halfling human human human'
+        'orc orc orc tiefling tiefling'
         'speciesother speciesother speciesother speciesother speciesother';
 
 
@@ -70,4 +54,15 @@ p {
 }
 
 
-
+.headimage { grid-area: headimage;}
+.aasimar {grid-area: aasimar;}
+.dragonborn {grid-area: dragonborn;}
+.dwarf {grid-area: dwarf;}
+.elf {grid-area: elf;}
+.gnome {grid-area: gnome;}
+.goliath {grid-area: goliath;}
+.halfling {grid-area: halfling;}
+.human {grid-area: human;}
+.orc {grid-area: orc;}
+.tiefling {grid-area: tiefling;}
+.speciesother {grid-area: speciesother;}
