@@ -33,3 +33,5 @@ footer { background-image: url(images/footerdragon.png) ;
          border: 2px outset blue;
          color: white;
         }
+
+footer a { color: white; }
