@@ -1,37 +1,44 @@
 /* Trying to recreate the coding that I had already done. Very frustrated with w3spaces right now. */
 
-.sheet { float: right;
-         margin: 10 px 50px;
-         border: solid; 
-         border-color: #a81d1d;
-         border-radius:10px; 
-       }
+.sheet {
+	float: right;
+	margin: 10 px 50px;
+	border: solid;
+	border-color: #a81d1d;
+	border-radius: 10px;
+}
 
-.addie { float: left; 
-         margin: 30px 100px;
-         border: ridge; 
-         border-color: #31c46a;
-         border-radius: 50px; 
-       }
+.addie {
+	float: left;
+	margin: 30px 100px;
+	border: ridge;
+	border-color: #31c46a;
+	border-radius: 50px;
+}
 
-.skills { float: right; 
-        margin: 5px 50px;
-         border: inset; 
-         border-color: #5a32a8; 
-         border-radius: 20px; 
-        }
+.skills {
+	float: right;
+	margin: 5px 50px;
+	border: inset;
+	border-color: #5a32a8;
+	border-radius: 20px;
+}
 
-.fullsheet { max-width: 100%;
-             height: auto;
-             display: block; 
-             margin-bottom: 40px
-           }
+.fullsheet {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 40px;
+}
 
-footer { background-image: url(images/footerdragon.png) ;
-         background-size: contain;
-         background-repeat: no-repeat;
-         border: 2px outset blue;
-         color: white;
-        }
+footer {
+	background-image: url(images/footerdragon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 2px outset blue;
+	color: white;
+}
 
-footer a { color: white; }
+footer a {
+	color: white;
+}
