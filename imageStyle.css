@@ -28,8 +28,7 @@
            }
 
 footer { background-image: url(images/footerdragon.png) ;
-         max-width: 100%;
-         height: auto;
+         background-size: 100%;
          background-repeat: no-repeat;
          border: 2px outset blue;
          color: white;
