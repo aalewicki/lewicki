@@ -34,11 +34,19 @@
 footer {
 	background-image: url(images/footerdragon.png);
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	border: 2px outset blue;
 	color: white;
 }
 
 footer a {
 	color: white;
+}
+
+/* Working on adding images to grid */
+
+.specieswrapper {
+	background-image: url(images/starsinspace.jpg)
+	background-size: 100%;
+	background-repeat: repeat
 }
