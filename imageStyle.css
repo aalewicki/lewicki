@@ -50,3 +50,7 @@ footer a {
 	background-size: 100%;
 	background-repeat: repeat
 }
+
+.aasimar { max-width: 100%;
+		   height: auto;
+		 }
