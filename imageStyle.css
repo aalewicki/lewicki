@@ -51,6 +51,17 @@ footer a {
 	background-repeat: repeat
 }
 
-.aasimar { max-width: 100%;
+.aasimar img { max-width: 100%;
 		   height: auto;
+		   display:block
+		 }
+
+.dragonborn img { max-width: 100%;
+		   height: auto;
+		   display:block
+		 }
+
+.dwarf img { max-width: 100%;
+		   height: auto;
+		   display:block
 		 }
