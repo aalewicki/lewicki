@@ -51,9 +51,9 @@ footer a {
 	background-repeat: repeat
 }
 
-.aasimar img { max-width: 100%;
-		   height: auto;
-		   display:block;
+.aasimar { background-image: url(images/aasimar.jpg);
+		  background-size: 50%;
+		  background-repeat: no-repeat;
 		 }
 
 .dragonborn img { max-width: 100%;
