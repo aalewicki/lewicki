@@ -69,13 +69,6 @@ a:active { color: #f0f032; }
 }
 
 
-.specieswrapper > div {
-    background-color: white;
-    text-align: center;
-    padding: 20px 20px;
-}
-
-
 .headimage { grid-area: headimage;}
 .aasimar {grid-area: aasimar;}
 .dragonborn {grid-area: dragonborn;}
