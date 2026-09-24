@@ -54,13 +54,13 @@ footer a {
 
 .headimage { background-image: url(images/headerimage.png);
 		  background-position: center;
-		  background-size: cover;
+		  background-size: contain;
 		  background-repeat: no-repeat;
 		 }
 
 .aasimar { background-image: url(images/aasimar.jpg);
 		  background-position: center;
-		  background-size: cover;
+		  background-size: contain;
 		  background-repeat: no-repeat;
 		 }
 
@@ -90,7 +90,7 @@ footer a {
 
 .goliath { background-image: url(images/goliath.jpg);
 		  background-position: center;
-		  background-size: cover;
+		  background-size: contain;
 		  background-repeat: no-repeat;
 		 }
 
