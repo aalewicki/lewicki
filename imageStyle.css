@@ -53,7 +53,7 @@ footer a {
 }
 
 .headimage {
-	min-height: 180px;	
+	object-fit: contain;	
 }
 .aasimar { 
 	background-image: url(images/aasimar.jpg);
