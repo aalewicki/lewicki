@@ -124,3 +124,10 @@ footer a {
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
+
+.speciesother {
+	background-image: url(images/otherspecies.png);
+		  background-position: center;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+}
