@@ -34,32 +34,7 @@ a:active { color: #f0f032; }
     display: grid;
     align-items: end;
     justify-items: center;
-    grid-template-areas:
-        'headimage headimage headimage headimage headimage'
-        'aasimar aasimar dragonborn dragonborn dragonborn'
-        'aasimar aasimar dragonborn dragonborn dragonborn'
-        'aasimar aasimar dwarf dwarf dwarf'
-        'aasimar aasimar dwarf dwarf dwarf'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'elf elf elf goliath goliath'
-        'gnome gnome gnome goliath goliath'
-        'gnome gnome gnome goliath goliath'
-       'gnome gnome gnome goliath goliath'
-       'gnome gnome gnome goliath goliath'
-       'gnome gnome gnome goliath goliath'
-       'gnome gnome gnome goliath goliath'
-        'halfling halfling human human human'
-        'halfling halfling human human human'
-        'orc orc orc tiefling tiefling'
-        'orc orc orc tiefling tiefling'
-        'speciesother speciesother speciesother speciesother speciesother';
+  
     margin-top: 40px;  
     padding: 20px;
     gap: 10px;
