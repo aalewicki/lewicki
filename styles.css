@@ -74,6 +74,7 @@ a:active { color: #f0f032; }
   
 .headimage { grid-area: headimage;
            display: block;
+            align-item: center;
           }
 .aasimar {grid-area: aasimar;}
 .dragonborn {grid-area: dragonborn;}
