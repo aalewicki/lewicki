@@ -74,8 +74,7 @@ a:active { color: #f0f032; }
 
   
 .headimage { grid-area: headimage;}
-.aasimar {grid-area: aasimar;
-           padding: 100px}
+.aasimar {grid-area: aasimar;}
 .dragonborn {grid-area: dragonborn;}
 .dwarf {grid-area: dwarf;}
 .elf {grid-area: elf;}
