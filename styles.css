@@ -32,8 +32,8 @@ a:active { color: #f0f032; }
 
 .specieswrapper {
     display: grid;
-    align-items: stretch;
-    justify-items: stretch;
+    align-content: end;
+    justify-content: end;
     grid-template-areas:
         'headimage headimage headimage headimage headimage'
         'aasimar aasimar dragonborn dragonborn dragonborn'
