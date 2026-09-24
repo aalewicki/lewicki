@@ -53,7 +53,11 @@ footer a {
 }
 
 .headimage {
-	object-fit: contain;	
+	object-fit: contain;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 40px;
 }
 .aasimar { 
 	background-image: url(images/aasimar.jpg);
