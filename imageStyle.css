@@ -52,61 +52,74 @@ footer a {
 	background-repeat: repeat
 }
 
-.aasimar { background-image: url(images/aasimar.jpg);
+.headimage {
+	min-height: 180px;	
+}
+.aasimar { 
+	background-image: url(images/aasimar.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.dragonborn { background-image: url(images/dragonborn.jpg);
+.dragonborn { 
+	background-image: url(images/dragonborn.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.dwarf { background-image: url(images/dwarf.jpg);
+.dwarf { 
+	background-image: url(images/dwarf.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.elf { background-image: url(images/elf.jpg);
+.elf { 
+	background-image: url(images/elf.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.gnome { background-image: url(images/gnome.jpg);
+.gnome { 
+	background-image: url(images/gnome.jpg);
 		 background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.goliath { background-image: url(images/goliath.jpg);
+.goliath { 
+	background-image: url(images/goliath.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.halfling { background-image: url(images/halfling.jpg);
+.halfling { 
+	background-image: url(images/halfling.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.human { background-image: url(images/human.jpg);
+.human { 
+	background-image: url(images/human.jpg);
 		 background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.orc { background-image: url(images/orc.jpg);
+.orc { 
+	background-image: url(images/orc.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
-.tiefling { background-image: url(images/tiefling.jpg);
+.tiefling { 
+	background-image: url(images/tiefling.jpg);
 		  background-position: center;
 		  background-size: cover;
 		  background-repeat: no-repeat;
