@@ -52,12 +52,7 @@ footer a {
 	background-repeat: repeat
 }
 
-.headimage {
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin-bottom: 40px;
-}
+
 .aasimar { 
 	background-image: url(images/aasimar.jpg);
 		  background-position: center;
