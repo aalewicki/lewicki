@@ -32,8 +32,6 @@ a:active { color: #f0f032; }
 
 .specieswrapper {
     display: grid;
-    align-content: end;
-    justify-content: end;
     grid-template-areas:
         'headimage headimage headimage headimage headimage'
         'aasimar aasimar dragonborn dragonborn dragonborn'
@@ -67,7 +65,12 @@ a:active { color: #f0f032; }
 }
 
 .specieswrapper > div {
-        font-family: "Girassol", serif;
+  min-height: 220px;
+  min-width: 100px;
+  padding: 20px;
+   align-content: stretch;
+    justify-content: end;
+  font-family: "Girassol", serif;
         font-size: 48px;
 }
 
