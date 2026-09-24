@@ -52,6 +52,12 @@ footer a {
 	background-repeat: repeat
 }
 
+.headerimage { background-image: url(images/headerimage.png);
+		  background-position: center;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		 }
+
 .aasimar { background-image: url(images/aasimar.jpg);
 		  background-position: center;
 		  background-size: cover;
