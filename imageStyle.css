@@ -60,7 +60,7 @@ footer a {
 
 .aasimar { background-image: url(images/aasimar.jpg);
 		  background-position: center;
-		  background-size: contain;
+		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
@@ -90,7 +90,7 @@ footer a {
 
 .goliath { background-image: url(images/goliath.jpg);
 		  background-position: center;
-		  background-size: contain;
+		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
