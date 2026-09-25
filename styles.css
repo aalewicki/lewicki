@@ -29,6 +29,9 @@ a:visited { color: #118f48; }
 a:hover { color: #b01010; }
 a:active { color: #f0f032; }
 
+mark {
+  background-color: white;
+}
 
 .specieswrapper {
     display: grid;
