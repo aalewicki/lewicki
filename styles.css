@@ -61,7 +61,6 @@ a:active { color: #f0f032; }
     margin-top: 40px;  
     padding: 20px;
     gap: 10px;
-    background-color: #9d0404c6
 }
 
 .specieswrapper > div {
@@ -71,6 +70,7 @@ a:active { color: #f0f032; }
     justify-content: end;
   font-family: "Girassol", serif;
         font-size: 48px;
+      text-align: right;
 }
 
   
