@@ -37,6 +37,7 @@ footer {
 	background-repeat: no-repeat;
 	border: 2px outset blue;
 	color: white;
+	min-height: 400px;
 }
 
 footer a {
