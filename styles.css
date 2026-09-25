@@ -21,7 +21,7 @@ h2 {
 /* Added line height to make the large blocks of text easier to read, changed the font, and removed the background color.*/
 p {
 	font-family: "Baskervville", serif;
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 	line-height: 1.5;
 }
 
