@@ -1,5 +1,3 @@
-/* Trying to recreate the coding that I had already done. Very frustrated with w3spaces right now. */
-
 .sheet {
 	float: right;
 	margin: 10px 50px;
@@ -44,93 +42,94 @@ footer a {
 	color: white;
 }
 
-/* Working on adding images to grid */
+/* It took a lot to make the images do what I envisioned in my head! */
 
 .specieswrapper {
 	background-image: url(images/starsinspace.jpg);
 	background-position: center;
-	background-repeat: repeat
+	background-repeat: repeat;
 }
 
 .headimage {
 	background-image: url(images/headerimage.png);
-		  background-position: center;
-		  background-size: cover;
-		  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-.aasimar { 
+
+.aasimar {
 	background-image: url(images/aasimar.jpg);
-		  background-position: center;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.dragonborn { 
+.dragonborn {
 	background-image: url(images/dragonborn.jpg);
-		  background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.dwarf { 
+.dwarf {
 	background-image: url(images/dwarf.jpg);
-		  background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.elf { 
+.elf {
 	background-image: url(images/elf.jpg);
-		  background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.gnome { 
+.gnome {
 	background-image: url(images/gnome.jpg);
-		 background-position: center top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.goliath { 
+.goliath {
 	background-image: url(images/goliath.jpg);
-		  background-position: center;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.halfling { 
+.halfling {
 	background-image: url(images/halfling.jpg);
-		  background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.human { 
+.human {
 	background-image: url(images/human.jpg);
-		 background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.orc { 
+.orc {
 	background-image: url(images/orc.jpg);
-		  background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-.tiefling { 
+.tiefling {
 	background-image: url(images/tiefling.jpg);
-		  background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
-		 }
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 .speciesother {
 	background-image: url(images/otherspecies.png);
-		  background-position: top;
-		  background-size: cover;
-		  background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
