@@ -66,7 +66,7 @@ a:active { color: #f0f032; }
 .specieswrapper > div {
   min-height: 400px;
   padding: 20px;
-  align-content: center;
+  align-content: end;
   justify-content: end;
   font-family: "Girassol", serif;
         font-size: 48px;
