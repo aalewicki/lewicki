@@ -48,7 +48,6 @@ footer a {
 .specieswrapper {
 	background-image: url(images/starsinspace.jpg);
 	background-position: center;
-		  background-size: cover;
 	background-repeat: repeat
 }
 
@@ -62,14 +61,14 @@ footer a {
 
 .dragonborn { 
 	background-image: url(images/dragonborn.jpg);
-		  background-position: center;
+		  background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
 .dwarf { 
 	background-image: url(images/dwarf.jpg);
-		  background-position: center;
+		  background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
