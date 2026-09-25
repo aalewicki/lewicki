@@ -90,7 +90,6 @@ mark {
 .headimage {
 	grid-area: headimage;
 	display: block;
-	align-item: center;
 }
 
 .aasimar {
