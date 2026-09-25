@@ -65,7 +65,7 @@ a:active { color: #f0f032; }
 }
 
 .specieswrapper > div {
-  min-height: 220px;
+  min-height: 300px;
   min-width: 100px;
   padding: 20px;
    align-content: stretch;
