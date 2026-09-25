@@ -80,14 +80,14 @@ footer a {
 
 .elf { 
 	background-image: url(images/elf.jpg);
-		  background-position: center;
+		  background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
 .gnome { 
 	background-image: url(images/gnome.jpg);
-		 background-position: center;
+		 background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
@@ -101,35 +101,35 @@ footer a {
 
 .halfling { 
 	background-image: url(images/halfling.jpg);
-		  background-position: center;
+		  background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
 .human { 
 	background-image: url(images/human.jpg);
-		 background-position: center;
+		 background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
 .orc { 
 	background-image: url(images/orc.jpg);
-		  background-position: center;
+		  background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
 .tiefling { 
 	background-image: url(images/tiefling.jpg);
-		  background-position: center;
+		  background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		 }
 
 .speciesother {
 	background-image: url(images/otherspecies.png);
-		  background-position: center;
+		  background-position: top;
 		  background-size: cover;
 		  background-repeat: no-repeat;
 }
