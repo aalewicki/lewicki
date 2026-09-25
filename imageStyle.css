@@ -33,8 +33,8 @@
 
 footer {
 	background-image: url(images/footerdragon.png);
-	background-size: contain;
-	background-repeat: repeat-x;
+	background-size: cover;
+	background-repeat: no-repeat;
 	border: 2px outset blue;
 	color: white;
 }
