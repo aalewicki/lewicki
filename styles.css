@@ -2,41 +2,51 @@
 
 
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #a81818;
-  font-family: "Girassol", serif;
-  border: medium solid white;
-  margin: 50px 25px;
-  padding: 30px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #a81818;
+	font-family: "Girassol", serif;
+	border: medium solid white;
+	margin: 50px 25px;
+	padding: 30px 15px;
 }
 
 /*Changed the font, and removed the background color. */
 h2 {
-  font-family: "Libre Baskerville", serif;
+	font-family: "Libre Baskerville", serif;
 }
 
 
 /* Added line height to make the large blocks of text easier to read, changed the font, and removed the background color.*/
 p {
-  font-family: "Baskervville", serif;
-  font-size: large;
-  line-height: 1.5;
+	font-family: "Baskervville", serif;
+	font-size: large;
+	line-height: 1.5;
 }
 
-a:link { color: #1b82d1; }
-a:visited { color: #118f48; }
-a:hover { color: #b01010; }
-a:active { color: #f0f032; }
+a:link {
+	color: #1b82d1;
+}
+
+a:visited {
+	color: #118f48;
+}
+
+a:hover {
+	color: #b01010;
+}
+
+a:active {
+	color: #f0f032;
+}
 
 mark {
-  background-color: white;
+	background-color: white;
 }
 
 .specieswrapper {
-    display: grid;
-    grid-template-areas:
-        'headimage headimage headimage headimage headimage'
+	display: grid;
+	grid-template-areas: 'headimage headimage headimage headimage headimage'
         'aasimar aasimar dragonborn dragonborn dragonborn'
         'aasimar aasimar dragonborn dragonborn dragonborn'
         'aasimar aasimar dwarf dwarf dwarf'
@@ -61,35 +71,68 @@ mark {
         'orc orc orc tiefling tiefling'
         'orc orc orc tiefling tiefling'
         'speciesother speciesother speciesother speciesother speciesother';
-    margin-top: 40px;  
-    padding: 20px;
-    gap: 10px;
+	margin-top: 40px;
+	padding: 20px;
+	gap: 10px;
 }
 
 .specieswrapper > div {
-  min-height: 400px;
-  padding: 20px;
-  align-content: end;
-  justify-content: end;
-  font-family: "Girassol", serif;
-        font-size: 48px;
-      text-align: right;
-  background-color: #fff;
+	min-height: 400px;
+	padding: 20px;
+	align-content: end;
+	justify-content: end;
+	font-family: "Girassol", serif;
+	font-size: 48px;
+	text-align: right;
+	background-color: #fff;
 }
 
-  
-.headimage { grid-area: headimage;
-           display: block;
-            align-item: center;
-          }
-.aasimar {grid-area: aasimar;}
-.dragonborn {grid-area: dragonborn;}
-.dwarf {grid-area: dwarf;}
-.elf {grid-area: elf;}
-.gnome {grid-area: gnome;}
-.goliath {grid-area: goliath;}
-.halfling {grid-area: halfling;}
-.human {grid-area: human;}
-.orc {grid-area: orc;}
-.tiefling {grid-area: tiefling;}
-.speciesother {grid-area: speciesother;}
+.headimage {
+	grid-area: headimage;
+	display: block;
+	align-item: center;
+}
+
+.aasimar {
+	grid-area: aasimar;
+}
+
+.dragonborn {
+	grid-area: dragonborn;
+}
+
+.dwarf {
+	grid-area: dwarf;
+}
+
+.elf {
+	grid-area: elf;
+}
+
+.gnome {
+	grid-area: gnome;
+}
+
+.goliath {
+	grid-area: goliath;
+}
+
+.halfling {
+	grid-area: halfling;
+}
+
+.human {
+	grid-area: human;
+}
+
+.orc {
+	grid-area: orc;
+}
+
+.tiefling {
+	grid-area: tiefling;
+}
+
+.speciesother {
+	grid-area: speciesother;
+}
