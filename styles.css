@@ -4,6 +4,7 @@
 h1 {
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 125%
 	color: #a81818;
 	font-family: "Girassol", serif;
 	border: medium solid white;
@@ -14,13 +15,14 @@ h1 {
 /*Changed the font, and removed the background color. */
 h2 {
 	font-family: "Libre Baskerville", serif;
+	font-size: 150%
 }
 
 
 /* Added line height to make the large blocks of text easier to read, changed the font, and removed the background color.*/
 p {
 	font-family: "Baskervville", serif;
-	font-size: large;
+	font-size: 175%;
 	line-height: 1.5;
 }
 
