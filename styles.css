@@ -21,6 +21,7 @@ h2 {
 p {
 	font-family: "Baskervville", serif;
 	line-height: 1.5;
+	font-size: large;
 }
 
 a:link {
@@ -126,6 +127,14 @@ mark {
 
 /*Background table styles*/
 
-.backgrounds, .backgrounds td {
-  border: 1px solid #f00;
+.backgrounds {
+  border: 2px solid #5203fc;
 }
+.backgrounds thead {
+	
+}
+.backgrounds td {
+	padding: 5px;
+}
+.backgrounds tfoot {
+	
