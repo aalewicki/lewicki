@@ -138,9 +138,15 @@ mark {
 .backgrounds td {
 	padding: 10px;
 }
-.backgrounds tfoot {
+
+tfoot {
 }
+
+tr:hover {
+  background-color: #A6FFDD;
+}
+
 .name {
-	font-color: #0317fc;
+	color: #0317fc;
 }
 	
