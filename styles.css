@@ -129,12 +129,18 @@ mark {
 
 .backgrounds {
   border: 2px solid #5203fc;
+	margin-left: auto;
+	margin-right: auto;
 }
 .backgrounds thead {
-	
+	text-size: x-large;
 }
 .backgrounds td {
 	padding: 5px;
 }
 .backgrounds tfoot {
+}
+.name {
+	font-color: #0317fc;
+}
 	
