@@ -123,3 +123,9 @@ mark {
 .speciesother {
 	grid-area: speciesother;
 }
+
+/*Background table styles*/
+
+.backgrounds, .backgrounds td {
+  border: 1px solid #f00;
+}
