@@ -154,3 +154,16 @@ tr:hover {
 .remove{
   display:none;
 }
+
+/*List of skills styles*/
+.skillslist {
+	float: left;
+	color: green;
+	list-style-type: upper-alpha;
+	font-size: medium;
+	margin: 5px 50px;
+	border: inset;
+	border-color: #5a32a8;
+	border-radius: 20px;
+}
+
