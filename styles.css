@@ -133,7 +133,7 @@ mark {
 	margin-right: auto;
 }
 .backgrounds thead {
-	text-size: x-large;
+	font-size: x-large;
 }
 .backgrounds td {
 	padding: 10px;
@@ -144,7 +144,7 @@ tfoot {
 }
 
 tr:hover {
-  background-color: #A6FFDD;
+  background-color: #ecf018;
 }
 
 .name {
