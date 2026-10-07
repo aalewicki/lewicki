@@ -140,6 +140,7 @@ mark {
 }
 
 tfoot {
+	text-align: center;
 }
 
 tr:hover {
