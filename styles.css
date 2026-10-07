@@ -161,6 +161,7 @@ tr:hover {
 	color: green;
 	list-style-type: upper-alpha;
 	font-size: medium;
+	padding: 15px;
 	margin: 5px 50px;
 	border: inset;
 	border-color: #5a32a8;
