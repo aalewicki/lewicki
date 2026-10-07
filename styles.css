@@ -141,7 +141,7 @@ mark {
 	padding: 10px;
 }
 
-th td {
+.backgrounds th td {
 	border-bottom: 1px solid #5203fc;
 }
 
