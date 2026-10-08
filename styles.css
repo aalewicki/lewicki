@@ -5,7 +5,7 @@
 nav {
 	width: 80%;
 	margin: auto;
-	border: dotted 10px #000;
+	border: dotted 10px #fff;
 	text-align: center;
 	background-color: #015998;
 }
@@ -14,7 +14,7 @@ nav {
 	margin: 5px;
 	padding: 5px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 .menu li {
@@ -22,15 +22,19 @@ nav {
 }
 
 .menu a {
-	color: #fff;
 	text-decoration: none;
 	display: block;
-	width: ;
-	padding: ;
+	width: 200px;
+	padding: 10px 0;
+}
+
+.menu a:link {
+	color: #fff;
 }
 
 .menu a:hover {
-	background-color: ;
+	color: #B1060FFF;
+	background-color: #fff;
 	text-decoration: underline;
 }
 
