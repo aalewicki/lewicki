@@ -6,10 +6,10 @@ nav {
 	width: 90%;
 	margin: auto;
 	border: dotted 5px #fff;
-	border-radius: 25px
 	text-align: center;
 	background-color: #015998;
 	font-size: x-large;
+	font-family: "Girassol", serif;
 }
 
 .menu ul {
@@ -44,6 +44,9 @@ nav {
 	background-color: #fff;
 	text-decoration: underline;
 }
+
+/*end nav bar*/
+
 
 h1 {
 	text-align: center;
