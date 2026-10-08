@@ -6,6 +6,7 @@ nav {
 	width: 90%;
 	margin: auto;
 	border: dotted 10px #fff;
+	border-radius: 10px
 	text-align: center;
 	background-color: #015998;
 	font-size: x-large;
