@@ -1,5 +1,38 @@
 /* Added a border around the title with a margin and padding, changed to the closest font to D&D I could find in Google font resource */
 
+/* Nav bar Flexbox */
+
+nav {
+	width: 80%;
+	margin: auto;
+	border: dotted 10px #000;
+	text-align: center;
+	background-color: #015998;
+}
+
+.menu ul {
+	margin: 5px;
+	padding: 5px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu li {
+	list-style-type: none;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	width: ;
+	padding: ;
+}
+
+.menu a:hover {
+	background-color: ;
+	text-decoration: underline;
+}
 
 h1 {
 	text-align: center;
