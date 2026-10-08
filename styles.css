@@ -159,8 +159,6 @@ tr:hover {
 .skillslist {
 	float: left;
 	color: green;
-	list-style-type: upper-alpha;
-	list-style-type: url('images/dragonsymbol.png');
 	font-size: medium;
 	padding: 15px;
 	margin: 5px 50px;
@@ -169,3 +167,10 @@ tr:hover {
 	border-radius: 20px;
 }
 
+.skillslist ol {
+		list-style-type: upper-alpha;
+}
+
+.skillslist ul {
+		list-style-type: url('images/dragonsymbol.png');
+}
