@@ -15,7 +15,7 @@ nav {
 	margin: 5px;
 	padding: 5px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .menu li {
@@ -30,6 +30,10 @@ nav {
 }
 
 .menu a:link {
+	color: #fff;
+}
+
+.menu a:visited {
 	color: #fff;
 }
 
