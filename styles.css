@@ -3,7 +3,7 @@
 /* Nav bar Flexbox */
 
 nav {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	border: dotted 10px #fff;
 	text-align: center;
@@ -25,7 +25,7 @@ nav {
 .menu a {
 	text-decoration: none;
 	display: block;
-	width: 300px;
+	width: 150px;
 	padding: 10px 0;
 }
 
