@@ -221,3 +221,7 @@ tr:hover {
 .skillslist ul {
 	list-style-image: url('images/dragonsymbol.png');
 }
+
+form {
+	float: left;
+}
