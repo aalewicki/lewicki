@@ -225,3 +225,7 @@ tr:hover {
 form {
 	float: left;
 }
+
+#checkbox {
+	list-style-type: none;
+}
