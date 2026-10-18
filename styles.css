@@ -226,6 +226,10 @@ form {
 	float: left;
 }
 
+legend {
+	font-size: medium;
+	font-family: "Girassol", serif;
+}
 #checkbox {
 	list-style-type: none;
 }
