@@ -222,10 +222,6 @@ tr:hover {
 	list-style-image: url('images/dragonsymbol.png');
 }
 
-.charactersheet {
-	display:grid;
-}
-
 form {
 	float: left;
 }
