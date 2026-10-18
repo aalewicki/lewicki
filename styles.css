@@ -227,8 +227,15 @@ form {
 }
 
 legend {
-	font-size: medium;
+	text-transform: uppercase;
+	font-size: large;
 	font-family: "Girassol", serif;
+}
+
+label {
+	font-family: "Baskervville", serif;
+	line-height: 1.5;
+	font-size: large;
 }
 #checkbox {
 	list-style-type: none;
