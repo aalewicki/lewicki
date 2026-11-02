@@ -233,7 +233,7 @@ tr:hover {
 .vmedia iframe {
  position: absolute;
  top: 0;
- left: 0;
+ left: 40;
  width: 80%;
  height: 80%;
 }
