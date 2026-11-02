@@ -291,8 +291,9 @@
 
         <h2 id ="6">Tutorial</h2>
             <p>Here is a video in which I walk you through how I build a character from to concept to finished character sheet. I do assume you have a working knowledge of how to build a basic character so if this is your first time ever building a D&D character, I recommend using an online character builder to compute the math, format your character sheet and make sure you don't miss anything. You will have to do some research though on what species, classes and backgrounds fit the character that you're trying to build because as you will see in the tutorial, nothing will fit perfectly and you will have to make decisions about which aspects of the character you want to highlight and which you can leave out.</p>
+                <!--Github wouldn't host my video because of the file size because of how long it is. Neither the shareable link https://youtu.be/y5L9t9kC2yQ nor the full link of the video would show the video with the code you provided. I tried your HTMLCodeAssist in Poe and was told "HTMLCodeAssist needs more points to answer this request." I went to ChatGPT and asked it. Its answer was that YouTube requires an API frame. I recognized that would mean the JavaScript to control it would be pointless because the iframe provides all the controls. It then provided me code for using JavaScript to control a YouTube iframe. I can guess at what some of the code is doing but not all of it, so I didn't include it. -->   
                 <video id="tutorialVideo">
-                    <source src="https://www.youtube.com/watch?v=y5L9t9kC2yQ" type="video/mp4">
+                    <source src="https://drive.google.com/file/d/14RQNbCFt4DWuq_nFAS8fKGr3fVL0pPJp/preview" type="video/mp4"> 
                 </video>
                 <br>
         <button id="playButton" onclick="myFunction()">Play Video</button>
@@ -303,12 +304,13 @@
 
             function myFunction() {
                 if (video.paused) {
-                    video.play():
+                    video.play();
                     btn.innerHTML = "Pause";
                 } else {
                     video.pause();
                     btn.innerHTML = "Play";
                 }
+            }
         </script>
         
         <h2>Time to Roleplay!</h2>
