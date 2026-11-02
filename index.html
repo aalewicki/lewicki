@@ -298,12 +298,12 @@
                
         <h2>Need Character Inspiration?</h2>
 
-<button onclick="showTip()">Roll for Inspiration</button>
+<button id="tipButton">Roll for Inspiration</button>
 
 <p id="characterTip"></p>
         
         <script>
-        <--! JavaScript for D&D Character Inspiration -->
+       /* JavaScript for D&D Character Inspiration */
             const tips = [
                 "Legolas - Elf, Ranger",
                 "Hermione Granger - Human, Wizard",
@@ -314,25 +314,25 @@
                 "Wednesday Addams - Human, Warlock",
                 "Merida - Human, Ranger",
                 "Jack Sparrow - Human, Rogue",
-                "Shrek - Orc, Barbarian"
-                "Groot - Firbolg, Druid"
-                "The Xenomorph - Dragonborn, Barbarian"
-                "Dobby - Gnome, Rogue"
-                "Aslan - Tabaxi, Paladin"
-                "Gollum - Halfling, Rogue"
-                "The Cheshire Cat - Tabaxi, Wizard"
-                "Puss in Boots - Tabaxi, Rogue"
-                "Haku - Dragonborn, Sorceror"
-                "Yoda - Goblin, Monk"
-                "Stitch - Goblin, Rogue"
-                "Tigress - Tabaxi, Monk"
-                "Master Oogway - Tortle, Monk"
-                "Crane - Aarakocra, Monk"
-                "Viper - Yuant-ti, Monk"
-                "Lord Shen - Aarakocra, Rogue"
-                "Lucifer Morningstar - Aasimar, Warlock"
-                "Mazikeen - Tiefling, Rogue"
-                "Amenadiel - Aasimar, Paladin"
+                "Shrek - Orc, Barbarian",
+                "Groot - Firbolg, Druid",
+                "The Xenomorph - Dragonborn, Barbarian",
+                "Dobby - Gnome, Rogue",
+                "Aslan - Tabaxi, Paladin",
+                "Gollum - Halfling, Rogue",
+                "The Cheshire Cat - Tabaxi, Wizard",
+                "Puss in Boots - Tabaxi, Rogue",
+                "Haku - Dragonborn, Sorceror",
+                "Yoda - Goblin, Monk",
+                "Stitch - Goblin, Rogue",
+                "Tigress - Tabaxi, Monk",
+                "Master Oogway - Tortle, Monk",
+                "Crane - Aarakocra, Monk",
+                "Viper - Yuant-ti, Monk",
+                "Lord Shen - Aarakocra, Rogue",
+                "Lucifer Morningstar - Aasimar, Warlock",
+                "Mazikeen - Tiefling, Rogue",
+                "Amenadiel - Aasimar, Paladin",
             ];
 
             document.getElementById('tipButton').addEventListener('click', () => {
