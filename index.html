@@ -30,6 +30,7 @@
                 <li><a href="#3">Background</a></li>
                 <li><a href="#4">Ability Scores/Skills</a></li>
                 <li><a href="#5">Equipment/Spells</a></li>
+                <li><a href="#6">Tutorial</a></li>
             </ul>
         </nav>
 
@@ -285,8 +286,30 @@
 
         
         <h2 id="5">Selecting Equipment and Spells (if allowed by Class)</h2>
-        <p>Your class and background provide you with Starting Equipment. If you don't like the provided equipment, you can instead choose to take the gold pieces and purchase equipment from Chapter 6 Equipment. Generally, the starting equipment is good enough and you'll earn better items in the campaign than what you can purchase from the PHB.</p>
-        <p>Your class and certain Origin Feats, determine your ability to cast spells. Use the instructions from your class for determining the amount and type of spells that your character can cast. Then choose them from the list provided in your classes subsection. If you have an Origin Feat that provides access to spells, that feat will tell you which spells your character has access to or which spell list you can choose from and how many of each level. You will then calculate your Spellcasting Ability Modifier and Spellsave DC based on which Ability your character uses to cast: Wisdom, Intelligence or Charisma. The Spellcasting Ability Modifier for Addie +3. Her Spellsave DC is 8+Proficiency+Spellcasting Ability Modifier: 8+2+3=13. The Spellcasting Attack Bonus is Spellcasting Ability Modifier plus Proficiency, 3+2=5.</p>  
+            <p>Your class and background provide you with Starting Equipment. If you don't like the provided equipment, you can instead choose to take the gold pieces and purchase equipment from Chapter 6 Equipment. Generally, the starting equipment is good enough and you'll earn better items in the campaign than what you can purchase from the PHB.</p>
+            <p>Your class and certain Origin Feats, determine your ability to cast spells. Use the instructions from your class for determining the amount and type of spells that your character can cast. Then choose them from the list provided in your classes subsection. If you have an Origin Feat that provides access to spells, that feat will tell you which spells your character has access to or which spell list you can choose from and how many of each level. You will then calculate your Spellcasting Ability Modifier and Spellsave DC based on which Ability your character uses to cast: Wisdom, Intelligence or Charisma. The Spellcasting Ability Modifier for Addie +3. Her Spellsave DC is 8+Proficiency+Spellcasting Ability Modifier: 8+2+3=13. The Spellcasting Attack Bonus is Spellcasting Ability Modifier plus Proficiency, 3+2=5.</p>  
+
+        <h2 id ="6">Tutorial</h2>
+            <p>Here is a video in which I walk you through how I build a character from to concept to finished character sheet. I do assume a working knowledge of how to build a basic character so if this is your first time ever building a D&D character, I recommend using an online character builder to do format your character sheet and make sure you don't miss anything. You will have to do some research though on what species, classes and backgrounds fit the character that you're trying to build because as you will see in the tutorial, nothing will fit perfectly and you will have to make decisions about which aspects of the character you want to highlight and which you can leave out.</p>
+                <video id="tutorialVideo" width="450">
+                    <source src="insert src here" type="video/mp4">
+                </video>
+                <br>
+        <button id="playButton" onclick="myFunction()">Play Video</button>
+        <!-- This the javascript. -->
+        <script>
+            var video = document.getElementById("tutorialVideo");
+            var btn = document.getElementById("playButton");
+
+            function myFunction() {
+                if (video.paused) {
+                    video.play():
+                    btn.innerHTML = "Pause";
+                } else {
+                    video.pause();
+                    btn.innerHTML = "Play";
+                }
+        </script>
         
         <h2>Time to Roleplay!</h2>
             <p>As you begin the campaign, if you let the personality and motivations of the character you selected be your guiding light for how you react to events in the game, soon you’ll be roleplaying with the best of them. Let those personalities shine, even if it means that the character does something you wouldn’t, or you know might not be the optimal action, as long as it doesn't hurt a fellow party member. Addie makes very different choices and reacts very differently than Gamora. Gamora takes no issue with stealing from people if it betters her party, whereas Addie struggled in a recent module with the idea of stealing giant peacock eggs from an old lady. She followed her party because that was her only option, but did not involve herself in the theft, which it turned out weren’t peacock eggs at all but a rather nasty monster from the Feywild, and the old lady was actually a hag. If you find that the character you created routinely acts in ways that hurt the party or becomes evil, I would strongly suggest creating a different character. Don't ruin everyone else's fun because you want to play a jerk character. If you do, don't be surprised if games are suddenly scheduled when you're not available. </p>
