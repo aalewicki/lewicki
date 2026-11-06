@@ -1,0 +1,23 @@
+[
+    {
+        "character": "Yoda",
+        "sourceMaterial": "Star Wars",
+        "species": "Goblin",
+        "class": "Sorcerer",
+        "background": "Sage"
+    },
+    {
+        "character": "Legolas",
+        "sourceMaterial": "Lord of the Rings",
+        "species": "Elf",
+        "class": "Ranger",
+        "background": "Guide"
+    },
+    {
+        "character": "Rocket",
+        "sourceMaterial": "Guardians of the Galaxy",
+        "species": "Tabaxi",
+        "class": "Artificer",
+        "background": "Urchin"
+    }
+]
