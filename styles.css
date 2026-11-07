@@ -259,10 +259,18 @@ label {
 
 #featuredCharacters  {
 	border: 2px solid #5203fc;
-	margin: auto;
+	margin: 20px auto;
+}
+
+#featuredCharacters table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
 #featuredCharacters thead {
 	font-size: x-large;
 	color: #fff;
 	background-color: #1872f0;
+}
+
