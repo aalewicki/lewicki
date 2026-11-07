@@ -260,6 +260,7 @@ label {
 #featuredCharacters  {
 	border: 2px solid #5203fc;
 	margin: 20px auto;
+	align-content: center;
 }
 
 #featuredCharacters thead {
