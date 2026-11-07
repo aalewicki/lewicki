@@ -266,6 +266,7 @@ label {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
+	text-align: center;
 }
 
 #featuredCharacters thead {
