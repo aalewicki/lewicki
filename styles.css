@@ -199,7 +199,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-	background-color: #ecf018;
+	background-color: #015998;
 }
 
 /*List of skills styles*/
@@ -256,3 +256,13 @@ label {
 #checkbox {
 	list-style-type: none;
 }
+
+#featuredCharacters  {
+	border: 2px solid #5203fc;
+	margin: 20px auto;
+}
+
+#featuredCharacters thead {
+	font-size: x-large;
+	color: #fff;
+	background-color: #1872f0;
