@@ -19,5 +19,75 @@
         "species": "Tabaxi",
         "class": "Artificer",
         "background": "Urchin"
+    },
+    {
+        "character": "Groot",
+        "sourceMaterial": "Guardians of the Galaxy",
+         "species": "Firbolg",
+        "class": "Druid",
+        "background": "Outlander"
+    },
+    {
+        "character": "Po",
+        "sourceMaterial": "Kung Fu Panda",
+        "species": "Panda",
+        "class": "Monk",
+        "background": "Folk Hero"
+    },
+    {
+        "character": "Tigress",
+        "sourceMaterial": "Kung Fu Panda",
+        "species": "Tabaxi",
+        "class": "Monk",
+        "background": "Soldier"
+    },
+    {
+        "character": "Dobby",
+        "sourceMaterial": "Harry Potter",
+        "species": "Elf",
+        "class": "Rogue",
+        "background": "Urchin"
+    },
+    {
+        "character": "Aslan",
+        "sourceMaterial": "The Chronicles of Narnia",
+        "species": "Leonin",
+        "class": "Paladin",
+        "background": "Noble"
+    },
+    {
+        "character": "Gollum",
+        "sourceMaterial": "The Lord of the Rings",
+        "species": "Halfling",
+        "class": "Rogue",
+        "background": "Hermit"
+    },
+    {
+        "character": "Lucifer Morningstar",
+        "sourceMaterial": "Lucifer",
+        "species": "Aasimar",
+        "class": "Warlock",
+        "background": "Noble"
+    },
+    {
+        "character": "Mazikeen",
+        "sourceMaterial": "Lucifer",
+        "species": "Tiefling",
+        "class": "Rogue",
+        "background": "Soldier"
+    },
+    {
+        "character": "Toothless",
+        "sourceMaterial": "How to Train Your Dragon",
+        "species": "Dragonborn",
+        "class": "Ranger",
+        "background": "Outlander"
+    },
+    {
+        "character": "Haku",
+        "sourceMaterial": "Spirited Away",
+        "species": "Dragonborn",
+        "class": "Sorcerer",
+        "background": "Sage"
     }
 ]
