@@ -8,7 +8,7 @@ window.onload = function() {
    
     .then(function(json) {
  
-       var tableCode = '<table><caption>Featured Character Builds</caption><thead><tr><th>Character</th><th>Source Material</th><th>Species</th><th>Class</th><th>Background</th></tr></thead><tbody>';
+       var tableCode = '<table><caption><h2>Featured Character Builds</h2></caption><thead><tr><th>Character</th><th>Source Material</th><th>Species</th><th>Class</th><th>Background</th></tr></thead><tbody>';
  
        for (var i = 0; i < json.length; i++) {
           tableCode += '<tr><td>' + 
