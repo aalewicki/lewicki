@@ -3,12 +3,18 @@
 <head>
   <meta charset="utf-8">
   <style>
+    p {text-indent: 05%;}
     .twocolumn {display: grid;
              grid-template-columns: 1fr 1fr; 
              gap: 20px;}
-    .pretty {background-color: #FAF4EB;}
-    .pretty h1 {background-color: #C85A32;}
-    .pretty h2 {background-color: #9E401E;}
+    .pretty { }
+    .pretty h1 {background-color: #9E401E; 
+               color: #FAF4EB;}
+    .pretty h2 {background-color: #C85A32;
+               color: #FAF4EB;}
+    .surface p {background-color: #EBD9C3;}
+    .skillslist ul {list-style-image: url('images/pyramid.png');
+}
     h4 {font-style: italic;}
 
     /* Palettes to play with*/
@@ -45,7 +51,7 @@
     <div class="boring">
     <h1>Visiting Luxor</h1>
 
-<h2>Why visit Luxor?</h2>
+<h2>Why Visit Luxor?</h2>
 <p>Luxor is an important travel destination because it contains some of the best-preserved ancient Egyptian temples, tombs, and monuments. The city is located along the Nile River and is often described as an open-air museum because historical sites are found throughout the area. Visitors can explore both the modern city and the remains of ancient Thebes during the same trip (Experience Egypt, n.d.; UNESCO World Heritage Centre, n.d.).</p>
 
 <h2>History of Luxor</h2>
@@ -83,34 +89,45 @@
     <!--The second prettier version begins here-->
     <div class="pretty">
       <h1>Visiting Luxor</h1>
-
-<h2>Why visit Luxor?</h2>
-<p>Luxor is an important travel destination because it contains some of the best-preserved ancient Egyptian temples, tombs, and monuments. The city is located along the Nile River and is often described as an open-air museum because historical sites are found throughout the area. Visitors can explore both the modern city and the remains of ancient Thebes during the same trip (Experience Egypt, n.d.; UNESCO World Heritage Centre, n.d.).</p>
-
+      <h2>Why Visit Luxor?</h2>
+      
+      <p>Luxor is an important travel destination because it contains some of the best-preserved ancient Egyptian temples, tombs, and monuments. The city is located along the Nile River and is often described as an open-air museum because historical sites are found throughout the area. Visitors can explore both the modern city and the remains of ancient Thebes during the same trip (Experience Egypt, n.d.; UNESCO World Heritage Centre, n.d.).</p>
+      
       <h2>History of Luxor</h2>
-<p>Modern Luxor was built near the location of ancient Thebes, which served as an important capital and religious center of Egypt. The city became especially powerful during the Middle Kingdom and New Kingdom, when many of its most famous temples and tombs were constructed. Ancient Thebes and its necropolis were added to the UNESCO World Heritage List in 1979 because of their outstanding cultural and historical importance (Ministry of Tourism and Antiquities, n.d.; UNESCO World Heritage Centre, n.d.).</p>
-
-<h2>Best Time to Visit Luxor</h2>
-<p>The best time to visit Luxor is generally during the cooler months between October and April. Winter temperatures make it more comfortable to walk through temples, explore tombs, and spend time outdoors. Travelers should be prepared for very hot conditions from May through September, especially during the middle of the day (Experience Egypt, n.d.; Lonely Planet, 2026).</p>
-
-<h2>What to Do in Luxor</h2>
-<p>There are many activities to enjoy in Luxor besides visiting ancient ruins. Travelers can take a boat ride on the Nile, watch the sunrise from a hot-air balloon, explore the local souq, or ride in a traditional horse-drawn carriage. A Nile cruise is another popular activity because it allows visitors to travel between Luxor and other important destinations in southern Egypt (Experience Egypt, n.d.).</p>
-
-<h2>What to See in Luxor</h2>
-<p>Some of the most famous landmarks in Luxor include Karnak Temple, Luxor Temple, the Valley of the Kings, and the Valley of the Queens. Visitors can also see the Temple of Hatshepsut, the Colossi of Memnon, Medinet Habu, and the Luxor Museum. Together, these sites show the religious, artistic, and political importance of ancient Thebes (Ministry of Tourism and Antiquities, n.d.; UNESCO World Heritage Centre, n.d.).</p>
-
-
-<h2>References</h2>
-<ul>
-  <li>OpenAI. (2026). <em>ChatGPT</em> (Nov 13 version) [Large language model]. <a href="https://chat.openai.com/chat">https://chat.openai.com/chat</a></li>
-  <li>Experience Egypt. (n.d.). <em>Food, drink, and entertainment</em>. <a href="https://www.experienceegypt.eg/en/culture">https://www.experienceegypt.eg/en/culture</a></li>
-  <li>Experience Egypt. (n.d.). <em>Luxor</em>. <a href="https://www.experienceegypt.eg/en/city/22/luxor">https://www.experienceegypt.eg/en/city/22/luxor</a></li>
-  <li>Experience Egypt. (n.d.). <em>Practical information</em>. <a href="https://www.experienceegypt.eg/en/usefulinfo">https://www.experienceegypt.eg/en/usefulinfo</a></li>
-  <li>Lonely Planet. (2026). <em>The best times to visit Egypt to avoid crowds and enjoy pleasant weather</em>. <a href="https://www.lonelyplanet.com/articles/best-time-to-visit-egypt">https://www.lonelyplanet.com/articles/best-time-to-visit-egypt</a></li>
-  <li>Ministry of Tourism and Antiquities. (n.d.). <em>Ancient Thebes and its necropolis</em>. <a href="https://egymonuments.gov.eg/world-heritage/ancient-thebes-and-its-necropolis">https://egymonuments.gov.eg/world-heritage/ancient-thebes-and-its-necropolis</a></li>
-  <li>UNESCO World Heritage Centre. (n.d.). <em>Ancient Thebes with its necropolis</em>. <a href="https://whc.unesco.org/en/list/87">https://whc.unesco.org/en/list/87/</a></li>
-</ul>
-    </div>
+      <p class="surface">Modern Luxor was built near the location of ancient Thebes, which served as an important capital and religious center of Egypt. The city became especially powerful during the Middle Kingdom and New Kingdom, when many of its most famous temples and tombs were constructed. Ancient Thebes and its necropolis were added to the UNESCO World Heritage List in 1979 because of their outstanding cultural and historical importance (Ministry of Tourism and Antiquities, n.d.; UNESCO World Heritage Centre, n.d.).</p>
+      
+      <h2>Best Time to Visit Luxor</h2>
+      <p>The best time to visit Luxor is generally during the cooler months between October and April. Winter temperatures make it more comfortable to walk through temples, explore tombs, and spend time outdoors. Travelers should be prepared for very hot conditions from May through September, especially during the middle of the day (Experience Egypt, n.d.; Lonely Planet, 2026).</p>
+      
+      <h2>What to Do in Luxor</h2>
+      <p class="surface">There are many activities to enjoy in Luxor besides visiting ancient ruins. Travelers can take a boat ride on the Nile, watch the sunrise from a hot-air balloon, explore the local souq, or ride in a traditional horse-drawn carriage. A Nile cruise is another popular activity because it allows visitors to travel between Luxor and other important destinations in southern Egypt (Experience Egypt, n.d.).</p>
+      
+      <h2>What to See in Luxor</h2>
+      <p>Some of the most famous landmarks in Luxor which represent the religious, artistic, and political importance of ancient Thebes include:
+        <ul class="landmarks:>
+          <li>Karnak Temple</li>
+          <li>Luxor Temple</li>
+          <li>Valley of the Kings</li>
+          <li>Valley of the Queens</li>
+          <li>Temple of Hatshepsut</li> 
+          <li>Colossi of Memnon</li>
+          <li>Medinet Habu</li>
+          <li>Luxor Museum</li>
+          </ul>
+      (Ministry of Tourism and Antiquities, n.d.; UNESCO World Heritage Centre, n.d.).</p>
+      
+      <hr>
+      <h2>References</h2>
+      <ul>
+        <li>OpenAI. (2026). <em>ChatGPT</em> (Nov 13 version) [Large language model]. <a href="https://chat.openai.com/chat">https://chat.openai.com/chat</a></li>
+        <li>Experience Egypt. (n.d.). <em>Food, drink, and entertainment</em>. <a href="https://www.experienceegypt.eg/en/culture">https://www.experienceegypt.eg/en/culture</a></li>
+        <li>Experience Egypt. (n.d.). <em>Luxor</em>. <a href="https://www.experienceegypt.eg/en/city/22/luxor">https://www.experienceegypt.eg/en/city/22/luxor</a></li>
+        <li>Experience Egypt. (n.d.). <em>Practical information</em>. <a href="https://www.experienceegypt.eg/en/usefulinfo">https://www.experienceegypt.eg/en/usefulinfo</a></li>
+        <li>Lonely Planet. (2026). <em>The best times to visit Egypt to avoid crowds and enjoy pleasant weather</em>. <a href="https://www.lonelyplanet.com/articles/best-time-to-visit-egypt">https://www.lonelyplanet.com/articles/best-time-to-visit-egypt</a></li>
+        <li>Ministry of Tourism and Antiquities. (n.d.). <em>Ancient Thebes and its necropolis</em>. <a href="https://egymonuments.gov.eg/world-heritage/ancient-thebes-and-its-necropolis">https://egymonuments.gov.eg/world-heritage/ancient-thebes-and-its-necropolis</a></li>
+        <li>UNESCO World Heritage Centre. (n.d.). <em>Ancient Thebes with its necropolis</em>. <a href="https://whc.unesco.org/en/list/87">https://whc.unesco.org/en/list/87/</a></li>
+      </ul>
+          </div>
     </div>
 
   </body>
